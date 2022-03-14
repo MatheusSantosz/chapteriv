@@ -28,7 +28,7 @@ jobs:
     - run: npm run cy:run
       continue-on-error: true
       
-    - run: npm run report:merg
+    - run: npm run report:merge
     
     - run: npm run report:mocha
     
